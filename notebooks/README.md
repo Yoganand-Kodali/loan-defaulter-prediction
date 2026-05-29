@@ -40,7 +40,7 @@ Run the notebooks in the following order for end-to-end reproducibility.
 - Loads `df_75.csv` (preprocessed 75-column data)
 - SMOTE with `sampling_strategy=0.25` (4:1 ratio)
 - RFE for feature selection (top 30 features)
-- Trains all 6 models: LR, DT, RF, GradientBoosting, XGBoost, AdaBoost, Stacking
+- Trains all 7 models: LR, DT, RF, GradientBoosting, XGBoost, AdaBoost, Stacking
 - Reports F1 scores with and without RFE
 
 ---
@@ -49,7 +49,7 @@ Run the notebooks in the following order for end-to-end reproducibility.
 - Loads `data122_unscaled_knn_5.csv` (preprocessed 122-column data)
 - SMOTE with `sampling_strategy=1` (1:1 ratio) and `k_neighbors=5`
 - RFE with 30 selected features
-- Same 6 models as above
+- Same 7 models as above
 - **Best result:** Gradient Boosting → Train F1: 0.933, Test F1: 0.932
 
 ---

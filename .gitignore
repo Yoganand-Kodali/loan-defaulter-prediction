@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# Data files — large CSVs should not be committed to GitHub
+# Upload to Google Drive / Kaggle and link in README instead
+data/*.csv
+data/*.parquet
+data/*.pkl
+data/*.h5
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Model artifacts (large files)
+*.pkl
+*.joblib
+*.model
+models/
+
+# Logs
+*.log
